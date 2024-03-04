@@ -1,0 +1,138 @@
+/*
+Clases con "."
+id con #
+*/
+
+
+body{
+    background: linear-gradient(to left,#07575b,#189aa1,#66a5adda)
+}
+header{
+
+    margin-top: -2mm;
+    height: fit-content;
+    text-align: center;
+    display: flex;
+    background-color: rgb(183, 238, 255);
+    position: relative;
+
+}
+
+#Transparente{
+    display: flex;
+    width: 100px;
+    height: 100PX;
+    /*background-color: rgba(141,225,255,120);*/
+}
+
+
+/*Barra de navegación-Inicio*/
+.Derecha{
+    display: inline;
+
+
+}
+.Izquierda{
+    display: inline;
+}
+.Centro{
+    display: inline;
+}
+nav{
+    display:grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.3%;
+    text-align: center;
+    background-color: #85dff5 ;
+    
+}
+section{
+    text-align: center;
+}
+li{
+    
+    display: flex;
+    display: inline;
+    margin-left: 1%;
+}
+
+/*Barra de navegación-Fin*/
+
+/*Barra de busqueda inicio*/
+.Busqueda {
+    display: flex;
+    display: inline;
+    margin-left: 15%;
+}
+#filtro {
+    height: 15px;
+    width: 15px;
+    }
+/*Barra de busqueda fin*/
+
+/*productos Vista*/
+img{
+    margin-left: 20px ;
+    width: 80%;
+    height: 140px;
+}
+.producto1{
+    background:linear-gradient(to bottom, rgb(110, 255, 183),rgb(69, 163, 116));
+    width: 24%;
+    height: 350PX;
+    margin-top: 5px;
+    margin-left: 3px;
+    border: solid 2px;
+    float:inline-start;
+    
+}
+.producto2{
+    background:linear-gradient(to bottom, rgb(110, 255, 219),rgb(85, 168, 147)) ;
+    float:inline-start;
+    margin-top: 5px;
+    margin-left: 3px;
+    border: solid 2px;
+    width: 24%;
+    height: 350PX;
+
+}
+.producto3{
+    background:linear-gradient(to bottom,rgb(110, 255, 255),rgb(75, 174, 174));
+    float:inline-start; 
+    margin-top: 5px;
+    margin-left: 3px;
+    border: solid 2px;
+    width: 24%;
+    height: 350PX;
+
+} 
+.producto4{
+    background:linear-gradient(to bottom,rgb(137, 223, 252),rgb(68, 135, 157)) ;
+    margin-top: 5px;
+    margin-left: 3px;
+    border: solid 2px;
+    float:inline-start;
+    width: 24%;
+    height: 350PX;
+}
+
+p{
+    text-align:center;
+    font-size: x-large;
+    font-style:oblique;
+    color: rgb(0, 17, 253);
+}
+.Descripcion{
+    background-color:rgba(0, 255, 98, 0);
+    border:none;
+    margin-top: 0px;
+    width: 60%;
+}
+/* productos fin */
+
+
+
+
+
