@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/CSS_Registro.css">
+    <link rel="shortcut icon" href="IMG/Logo_Transparente.png" type="image/x-icon">
+    <title>Registro Usuarios</title>
+</head>
+<body>
+    <div class="header">
+        <div class="logo-container">
+            <img src="IMG/Logo_Transparente.png" height="100" width="100" alt="Farm to cell">
+        </div>
+        <h1 class="farm-to-cell">Farm to cell</h1>
+    </div>
+
+    <div class="menu">
+        <div class="menu-icon-container">
+            <div class="menu-icon">
+                <span>...</span>
+            </div>
+        </div>
+        <div class="navigation">
+            <button>Página 1</button>
+            <button>Página 2</button>
+            <button>Página 3</button>
+            <button>Página 4</button>
+        </div>
+    
+        <div class="search-bar">
+            <input type="text" placeholder="Buscar...">
+            <button type="submit">Buscar</button>
+        </div>
+    </div>
+
+    
+
+    <div class="container">
+        <form class="registro-form">
+            <h1>Registro de Usuarios</h1>
+            <label for="txtNombre">Nombre:</label>
+            <input id="txtNombre" class="campo" type="text" name="txtNombre" maxlength="50" placeholder="Ingrese Su Nombre" autofocus required>
+            <label for="txtApellido">Apellido:</label>
+            <input id="txtApellido" class="campo" type="text" name="txtApellido" maxlength="50" placeholder="Ingrese Su Apellido" required>
+            <label for="txtCelular">Celular:</label>
+            <input id="txtCelular" class="campo" type="tel" name="txtCelular" placeholder="Ingrese Su Celular" required>
+            <label for="txtDireccion">Dirección:</label>
+            <input id="txtDireccion" class="campo" type="text" name="txtDireccion" maxlength="100" placeholder="Ingrese Su Dirección">
+            <label for="txtEmail">Email:</label>
+            <input id="txtEmail" class="campo" type="email" name="txtEmail" maxlength="50" placeholder="Ingrese Su Email" required>
+            <label for="txtContraseña">Contraseña:</label>
+            <input id="txtContraseña" class="campo" type="password" name="txtContraseña" maxlength="50" placeholder="Ingrese Su Contraseña" required>
+            <button type="submit">Registrar</button>
+        </form>
+    
+        <form class="formulario" id="login-form">
+            <h2>Iniciar Sesión</h2>
+            <label for="loginEmail">Email:</label>
+            <input id="loginEmail" class="campo" type="email" name="loginEmail" maxlength="50" placeholder="Ingrese Su Email" required>
+            <label for="loginContraseña">Contraseña:</label>
+            <input id="loginContraseña" class="campo" type="password" name="loginContraseña" maxlength="50" placeholder="Ingrese Su Contraseña" required>
+            <button type="submit">Ingresar</button>
+        </form>
+    </div>
+    
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="info-container">
+                <h3>Información de Contacto</h3>
+                <p>Dirección: Calle Principal #123</p>
+                <p>Teléfono: (123) 456-7890</p>
+                <p>Email: info@empresa.com</p>
+            </div>
+            <div class="reseña">
+                <h3>Reseña de Comida Campestre</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed placerat auctor erat vitae vestibulum. Quisque maximus eros non posuere dictum.</p>
+            </div>
+        </div>
+        <div class="footer-bar">
+            <img src="IMG/Cultivando_Ideas.jpg" alt="Farm to cell" height="300" width="500">
+        </div>
+    </footer>
+    
+</body>
+</html>

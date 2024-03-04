@@ -1,0 +1,128 @@
+/* Estilos para el encabezado */
+html{
+    background-color: #fae04e;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px; /* Ajusta según tu preferencia */
+    background-image: linear-gradient(to right, rgb(229, 255, 0), #03e08b);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  
+  .logo {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .logo img{
+    width: 52px;
+}
+
+  nav {
+    display: flex;
+  }
+  
+  nav button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: rgb(146, 255, 255);
+    cursor: pointer;
+  }
+  
+
+
+  /* Estilos para el cuerpo */
+  body {
+    padding-top: 50px; /* Ajusta según la altura del encabezado */
+    justify-content: center;
+  }
+  
+  article {
+    width: fit-content;
+    margin: 20px;
+  }
+  
+  article h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  article img {
+    width: 400px;
+    height: auto;
+  }
+  
+  /* Estilos para el pie de página */
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 80px; /* Ajusta según tu preferencia */
+    background-image: linear-gradient(to right, rgb(229, 255, 0), #03e08b);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5px;
+  }
+  
+  .contact-info {
+    font-size: 14px;
+  }
+  
+  .footer-img {
+    width: 50px;
+    height: auto;
+    margin-right: 30px;
+  }
+
+  .search-container {
+    display: flex;
+    align-items: center;
+
+  }
+  
+  .search-container input[type="text"] {
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    width: 200px;
+  }
+  
+  .search-container button[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .search-container button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+
+  #Collumnas{
+    display: flex;
+    min-height: 450px;
+  }
+
+  #Home_Space{
+    width: 100%;
+    height: 600px;
+    display: flex; /* establish flex container */
+    justify-content: center; /* center flex items horizontally, in this case */
+    align-items: center;
+    background-image: linear-gradient(to right, #ff8c00, #ffd700);
+  }

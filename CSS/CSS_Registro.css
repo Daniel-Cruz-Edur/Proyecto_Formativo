@@ -1,0 +1,143 @@
+/* Estilos para el header */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0dc02b;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+    height: fit-content;
+}
+
+
+.logo-container img {
+    max-width: 100px;
+}
+
+
+.farm-to-cell {
+    margin: 0 auto; 
+}
+
+
+/*para los dos formularios*/ 
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.registro-form{
+    flex-basis: calc(50% - 20px);
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+}
+.formulario {
+    display: inline-block; 
+    padding: 20px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    margin-right: 10px; 
+    margin-bottom: 0; 
+}
+
+
+.registro-form label,
+.registro-form input {
+    display: block;
+    margin-bottom: 10px; 
+}
+
+
+/*para la barra de busqueda y los botones y el menu*/
+/* Estilos para la caja vertical de los tres puntos */
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0dc02b;
+    color: #fff;
+    padding: 20px;
+}
+
+.menu-icons {
+    display: flex;
+    align-items: center;
+    margin-right: 10px; /* Agregamos un margen derecho para separar los iconos del siguiente elemento */
+}
+
+.menu-icon {
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+}
+
+.menu-icon-container {
+    background-color: #fff; /* Cambia el color a rojo, puedes usar cualquier otro valor de color aquí */
+    border-radius: 5px; /* Ajusta el radio de borde según sea necesario */
+    border: 2px solid;
+    border-color: #0e0d0d;
+}
+
+.menu-icon span {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 2px;
+    line-height: 1;
+    color: #0e0d0d;
+    
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+.navigation button {
+    margin-right: 10px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input[type="text"] {
+    margin-left: 10px;
+}
+
+
+/* pie de pagina*/
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #054de7;
+    color: #fff;
+    padding: 20px;
+}
+
+.footer-content {
+    display: flex;
+}
+
+.info-container,
+.reseña {
+    margin-right: 20px;
+}
+
+.footer-bar {
+    display: flex;
+    align-items: center;
+    background-color: #06baf1; /* Cambia el color según tu preferencia */
+    padding: 10px;
+}
+
+
