@@ -2,13 +2,14 @@
 
 {% block head %}
   {{ super() }}
+  <link rel="stylesheet" href=" {{ url_for('static', filename='CSS/Help_Page.css') }} ">
 {% endblock %}
 
 {% block title %} {{ super() }} Ayudas {% endblock %}
 
 {% block content %}
 
-  <section id="Firts_Paragraft">
+  <section id="First_Paragraph">
     <figure>  
       <img src="/static/IMG/Ayudando.jpg" alt="Imagen_Ayuda">
     </figure>
@@ -19,21 +20,11 @@
     
   </section>
 
-  <section id="More_Help_Paragraft">
+  <section id="More_Help_Paragraph">
     <article> <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel ipsum ullamcorper, vestibulum tellus id, fermentum odio. Donec ut accumsan diam. Curabitur interdum nunc turpis, a vulputate velit bibendum non. Nulla molestie convallis felis, ut hendrerit massa pretium a. </p> <button> <a> Saber más... </a> </button> </article>
-    <article> <button> <a> Saber más... </a> </button> <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel ipsum ullamcorper, vestibulum tellus id, fermentum odio. Donec ut accumsan diam. Curabitur interdum nunc turpis, a vulputate velit bibendum non. Nulla molestie convallis felis, ut hendrerit massa pretium a. </p> </article>
     <article> <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel ipsum ullamcorper, vestibulum tellus id, fermentum odio. Donec ut accumsan diam. Curabitur interdum nunc turpis, a vulputate velit bibendum non. Nulla molestie convallis felis, ut hendrerit massa pretium a. </p> <button> <a> Saber más... </a> </button> </article>
-    <article> <button> <a> Saber más... </a> </button> <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel ipsum ullamcorper, vestibulum tellus id, fermentum odio. Donec ut accumsan diam. Curabitur interdum nunc turpis, a vulputate velit bibendum non. Nulla molestie convallis felis, ut hendrerit massa pretium a. </p> </article>
+    <article> <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel ipsum ullamcorper, vestibulum tellus id, fermentum odio. Donec ut accumsan diam. Curabitur interdum nunc turpis, a vulputate velit bibendum non. Nulla molestie convallis felis, ut hendrerit massa pretium a. </p> <button> <a> Saber más... </a> </button> </article>
+    <article> <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel ipsum ullamcorper, vestibulum tellus id, fermentum odio. Donec ut accumsan diam. Curabitur interdum nunc turpis, a vulputate velit bibendum non. Nulla molestie convallis felis, ut hendrerit massa pretium a. </p> <button> <a> Saber más... </a> </button> </article>
   </section>
 
 {% endblock %}
-
-
-
-
-
-
-
-
-
-
