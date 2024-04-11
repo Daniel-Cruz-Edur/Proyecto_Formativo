@@ -1,81 +1,71 @@
-<!Doctype html>
-<html>
-    <head>
-    <meta charset="UTF-16">
-    <title>Farmn to cell</title>
-    <link rel="stylesheet" href="CSS/Page_Products.css" type="text/css">
-    </head>
-    <body >
-        <!--Cabezera -->
-        <header>
-            <img id="Transparente" src="IMG/Logo_Transparente.png" alt="logo" height="2050">
-            <h1>Farm to cell</h1>
-            
-        </header>
-        <nav>
-            <ul>
-                <section class="Derecha">
-                    <li><a href="#">Productos</a></li>   
-                </section>
-                <section class="Izquierda">
-                    <li><a href="#">Agro Ayuda </a></li> 
-                </section>
-                <section class="Centro">
-                    <li><a href="#">Sobre nosotros</a></li>
-                <section class="Busqueda">
-                    <li><label style="background-color: rgb(0, 0, 0, 0);"> Busqueda: </label>
-                    <input type="text" placeholder="Buscar producto"></li>
-                    <img  id=filtro src="IMG/Filtro.png" alt="filtrar">
-                    <select>
-                        <option>--Sin filtro--</option>
-                        <option>Lacteos</option>
-                        <option>Carnes</option>
-                        <option>Tuberculos</option>
-                        <option>Frutas</option>
-                        <option>Verduras</option> 
-                    </select>
-                </section>
-    
-            </ul>
-        </nav>
+{% extends 'Base.html' %}
+
+{% block head %}
+    {{ super() }}
+    <link rel="stylesheet" href=" {{ url_for('static', filename='CSS/Product_Page.css') }} ">
+{% endblock %}
     
 <!-- Productos inicio-->
-    <main>
 
-    <article class="producto1">
-        <p>Nombre del producto</p>
-        <img src="IMG/Granjita.jpg" alt="Producto" >
+{% block content %}
+
+    <section class="product-grid">
+        <article class="producto">
+        <h2>Nombre del producto</h2>
+        <img src="/static/IMG/Granjita.jpg" alt="Producto">
         <h4>Descripción:</h4>
-        <input class="Descripcion" type="text" placeholder="Descripción breve"></li>
-    </article>
-
-    <article class="producto2">
-        <p>Nombre del producto</p>
-        <img src="IMG/Granjita.jpg" alt="Producto" >
-        <h4>Descripción:</h4>
-        <input class="Descripcion" type="text" placeholder="Descripción breve"></li>
-    </article>
-
-    <article class="producto3">
-        <p>Nombre del producto</p>
-        <img src="IMG/Granjita.jpg" alt="Producto" >
-        <h4>Descripción:</h4>
-        <input class="Descripcion" type="text" placeholder="Descripción breve"></li>
-    </article>
-
-    <article class="producto4">
-        <p>Nombre del producto</p>
-        <img src="IMG/Granjita.jpg" alt="Producto" >
-        <h4>Descripción:</h4>
-        <input class="Descripcion" type="text" placeholder="Descripción breve"></li>
-    </article>
-    </main>
-
+        <p> Describiendo el producto... </p>
+        </article>
     
-<!--Cabezera fin -->
+        <article class="producto">
+            <h2>Nombre del producto</h2>
+            <img src="/static/IMG/Granjita.jpg" alt="Producto" >
+            <h4>Descripción:</h4>
+            <p> Describiendo el producto... </p></li>
+        </article>
 
+        <article class="producto">
+            <h2>Nombre del producto</h2>
+            <img src="/static/IMG/Granjita.jpg" alt="Producto" >
+            <h4>Descripción:</h4>
+            <p> Describiendo el producto... </p></li>
+        </article>
 
+        <article class="producto">
+            <h2>Nombre del producto</h2>
+            <img src="/static/IMG/Granjita.jpg" alt="Producto" >
+            <h4>Descripción:</h4>
+            <p> Describiendo el producto... </p></li>
+        </article>
 
-        
-    </body>
-</html>
+        <article class="producto">
+            <h2>Nombre del producto</h2>
+            <img src="/static/IMG/Granjita.jpg" alt="Producto" >
+            <h4>Descripción:</h4>
+            <p> Describiendo el producto... </p></li>
+        </article>
+
+        <article class="producto">
+            <h2>Nombre del producto</h2>
+            <img src="/static/IMG/Granjita.jpg" alt="Producto" >
+            <h4>Descripción:</h4>
+            <p> Describiendo el producto... </p></li>
+        </article>
+
+        <article class="producto">
+            <h2>Nombre del producto</h2>
+            <img src="/static/IMG/Granjita.jpg" alt="Producto" >
+            <h4>Descripción:</h4>
+            <p> Describiendo el producto... </p></li>
+        </article>
+
+        <article class="producto">
+            <h2>Nombre del producto</h2>
+            <img src="/static/IMG/Granjita.jpg" alt="Producto" >
+            <h4>Descripción:</h4>
+            <p> Describiendo el producto... </p></li>
+        </article>
+    
+    </section>
+  
+{% endblock %}
